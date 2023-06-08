@@ -1,0 +1,428 @@
+html, body {
+    overflow-x: hidden;
+    max-width: 100%
+}
+
+*{
+    box-sizing: border-box;
+    font-family:'GT-Haptik', sans-serif;
+}
+
+@font-face {
+    font-family: 'gt_haptikthin';
+    src: url('gt-haptik-thin-2.dfb4337f-webfont.woff2') format('woff2'),
+         url('gt-haptik-thin-2.dfb4337f-webfont.woff') format('woff'),
+         url('GT-Haptik-Thin-2.dfb4337f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_haptiklight';
+    src: url('gt-haptik-light-2.01107295-webfont.woff2') format('woff2'),
+         url('gt-haptik-light-2.01107295-webfont.woff') format('woff'),
+         url('GT-Haptik-Light-2.01107295.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_haptikbold';
+    src: url('gt-haptik-bold-2.43117871-webfont.woff2') format('woff2'),
+         url('gt-haptik-bold-2.43117871-webfont.woff') format('woff'),
+         url('GT-Haptik-Bold-2.43117871.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_haptikblack';
+    src: url('gt-haptik-black-2.3ad9ca4b-webfont.woff2') format('woff2'),
+         url('gt-haptik-black-2.3ad9ca4b-webfont.woff') format('woff'),
+         url('GT-Haptik-Black-2.3ad9ca4b.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_haptikmedium';
+    src: url('gt-haptik-medium-2.f5730002-webfont.woff2') format('woff2'),
+         url('gt-haptik-medium-2.f5730002-webfont.woff') format('woff'),
+         url('GT-Haptik-Medium-2.f5730002.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_haptikregular';
+    src: url('gt-haptik-regular-2.c3f716f0-webfont.woff2') format('woff2'),
+         url('gt-haptik-regular-2.c3f716f0-webfont.woff') format('woff'),
+         url('GT-Haptik-Regular-2.c3f716f0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.btn-danger {
+    background-color: #B32B2B !important;
+}
+
+/* NAVBAR BASLANGIC*/
+nav {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,.2);
+}
+
+nav.scrolled {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+}
+
+.nav-link {
+    color: #fff;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+a.nav-link:hover, .navbar ul li.active .nav-link.scrolled {
+    color: #fff;
+    background-color: hsla(0, 0%, 75%, .1);
+}
+
+a.nav-link:hover, .navbar ul li.active .nav-link {
+    color: #fff;
+    background-color: hsla(0,0%,94.1%,.1);
+}
+
+.navbar-expand-lg .navbar-nav a.nav-link {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.navbar .navbar-nav li a.nav-link {
+    line-height: 38px;
+    font-weight: bolder;
+    color: white;
+    font-size: 14px;
+}
+
+.navbar .navbar-nav li a.nav-link.scrolled {
+    line-height: 38px;
+    font-weight: bolder;
+    color: black;
+    font-size: 14px;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: white !important;
+    transition: background-color 300ms linear;
+}
+
+.navbar-fixed-top {
+    background-color: transparent!important;
+    transition: background-color 300ms linear;
+}
+
+nav a img.navbar-brand-fixed-top {
+    height: 50px !important;
+}
+
+.navbar-brand img.navbar-brand-fixed-top.scrolled {
+    content: url(https://capslockgames.com/img/logokirmizi.png);
+}
+
+.navbar-brand img.navbar-brand-fixed-top {
+    content: url(https://capslockgames.com/img/logobeyaz.png);
+}
+
+@media only screen and (max-width : 991px) {
+    .navbar-fixed-top {
+    background-color: white !important;
+    }
+
+    .navbar-brand img.navbar-brand-fixed-top {
+        content: url(https://capslockgames.com/img/logokirmizi.png);
+    }
+
+    .navbar .navbar-nav li a.nav-link {
+        line-height: 38px;
+        font-weight: bolder;
+        color: black;
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: transparent
+    }
+
+    nav {
+        box-shadow: 0 0px 0px 0 rgba(0,0,0,.2);
+    }
+}
+/* NAVBAR BITIS */
+
+/* ARKA PLAN VIDEO BASLANGIC */
+#banner {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    position: absolute;
+}
+
+video {
+    filter: brightness(50%);
+}
+
+.overlay {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay p {
+    background: #222020 none repeat scroll 0 0;
+    color: tan;
+    font-weight: 600;
+    mix-blend-mode: overlay;
+    text-align: center;
+}
+/* ARKA PLAN VIDEO BITIS*/ 
+
+/* CONTACT ARKA PLAN BASLANGIC*/
+#bannercontact {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    position: absolute;
+}
+
+img#bannercontact {
+    filter: brightness(20%);
+}
+
+.overlaycontact {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(100%);
+}
+
+.overlaycontact p {
+    font-weight: bolder;
+    mix-blend-mode: hard-light;
+    text-align: center;
+}
+/* CONTACT ARKA PLAN BITIS */ 
+
+/* PRODUCTS ARKA PLAN BASLANGIC */
+#bannerproducts {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    position: absolute;
+}
+
+img#bannerproducts {
+    filter: brightness(20%);
+}
+
+.overlayproducts {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(100%);
+}
+
+.overlayproducts p {
+    font-weight: bolder;
+    mix-blend-mode: hard-light;
+    text-align: center;
+}
+
+.download-btns a {
+    display:inline-block;
+    padding:10px 0;
+    margin:30px 10px 0 0;
+}
+
+.download-btns a img {
+    height:55px;
+}
+
+@media only screen and (max-width : 991px) {
+    .download-btns {
+    text-align: center;
+    }
+    .download-btns a {
+        padding: 5px;
+        margin: 0px;
+    }
+
+    #pageproducts h2 {
+        text-align: center;
+        font-size: 32px !important;
+    }
+
+    #pageproducts p {
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    #gameicon {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+/* PRODUCTS ARKA PLAN BITIS*/
+
+/* ABOUT ARKA PLAN BASLANGIC */
+#bannerabout {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    position: absolute;
+}
+
+img#bannerabout {
+    filter: brightness(20%);
+}
+
+.overlayabout {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(100%);
+}
+
+.overlayabout p {
+    font-weight: bolder;
+    mix-blend-mode: hard-light;
+    text-align: center;
+}
+/* ABOUT ARKA PLAN BITIS */
+
+/* FOOTER BASLANGIC */
+footer ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left!important;
+    color: white;
+    opacity: 0.9;
+}
+
+footer .container {
+    text-align: left!important;
+}
+
+footer .footer-section ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    opacity: 0.9;
+}
+footer .copyright-right ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-flex;
+    letter-spacing: 10px;
+}
+
+.copyright-left {
+    text-align: left;
+}
+
+.copyright-right {
+    text-align: right;
+}
+
+@media only screen and (max-width : 991px) {
+    footer .copyright-right {
+    text-align: center;
+}
+}
+
+@media only screen and (max-width : 991px) {
+    footer .copyright-left {
+    text-align: center;
+}
+}
+
+@media only screen and (max-width : 991px) {
+    footer .footer-link-container {
+    text-align: center;
+}
+}
+/* FOOTER BITIS */
+
+/* CONTACT BASLANGIC */
+#contact button {
+    width: 285px;
+    height: 100px;
+}
+
+#contact button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#contact a  {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media only screen and (max-width : 991px) {
+    .card {
+    max-width: 385px;
+}
+}
+/* CONTACT BITIS */ 
+
+/* PRODUCTS BASLANGIC */ 
+#products {
+    background: url(https://capslockgames.com/img/productsbg.png);
+    background-size: cover;
+}
+
+#products button {
+    width: 320px;
+    height: 320px;
+}
+
+#products button a {
+    text-decoration: none;
+    color: inherit;
+}
+/* PRODUCTS BITIS */
+
+/* ABOUT US BASLANGIC */
+#aboutus {
+    background-color: white !important;
+}
+/* ABOUT US BITIS*/
+
+/* YUKARI DON BASLANGIC */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#btn-back-to-top.scrolled {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    border-radius: 50%;
+    z-index: 1;
+    transition-timing-function: ease;
+}
+
+@media only screen and (max-width : 991px) {
+    #btn-back-to-top {
+    display: none !important;
+}
+}
+/* YUKARI DON BITIS*/

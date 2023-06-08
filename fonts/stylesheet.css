@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'gt_haptikthin';
+    src: url('gt-haptik-thin-2.dfb4337f-webfont.woff2') format('woff2'),
+         url('gt-haptik-thin-2.dfb4337f-webfont.woff') format('woff'),
+         url('GT-Haptik-Thin-2.dfb4337f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_haptiklight';
+    src: url('gt-haptik-light-2.01107295-webfont.woff2') format('woff2'),
+         url('gt-haptik-light-2.01107295-webfont.woff') format('woff'),
+         url('GT-Haptik-Light-2.01107295.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_haptikbold';
+    src: url('gt-haptik-bold-2.43117871-webfont.woff2') format('woff2'),
+         url('gt-haptik-bold-2.43117871-webfont.woff') format('woff'),
+         url('GT-Haptik-Bold-2.43117871.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_haptikblack';
+    src: url('gt-haptik-black-2.3ad9ca4b-webfont.woff2') format('woff2'),
+         url('gt-haptik-black-2.3ad9ca4b-webfont.woff') format('woff'),
+         url('GT-Haptik-Black-2.3ad9ca4b.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_haptikmedium';
+    src: url('gt-haptik-medium-2.f5730002-webfont.woff2') format('woff2'),
+         url('gt-haptik-medium-2.f5730002-webfont.woff') format('woff'),
+         url('GT-Haptik-Medium-2.f5730002.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_haptikregular';
+    src: url('gt-haptik-regular-2.c3f716f0-webfont.woff2') format('woff2'),
+         url('gt-haptik-regular-2.c3f716f0-webfont.woff') format('woff'),
+         url('GT-Haptik-Regular-2.c3f716f0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
