@@ -125,11 +125,11 @@ nav a img.navbar-brand-fixed-top {
 }
 
 .navbar-brand img.navbar-brand-fixed-top.scrolled {
-    content: url(https://capslockgames.com/img/logokirmizi.png);
+    content: url(/img/logokirmizi.png);
 }
 
 .navbar-brand img.navbar-brand-fixed-top {
-    content: url(https://capslockgames.com/img/logobeyaz.png);
+    content: url(/img/logobeyaz.png);
 }
 
 @media only screen and (max-width : 991px) {
@@ -138,7 +138,7 @@ nav a img.navbar-brand-fixed-top {
     }
 
     .navbar-brand img.navbar-brand-fixed-top {
-        content: url(https://capslockgames.com/img/logokirmizi.png);
+        content: url(/img/logokirmizi.png);
     }
 
     .navbar .navbar-nav li a.nav-link {
@@ -379,7 +379,7 @@ footer .copyright-right ul {
 
 /* PRODUCTS BASLANGIC */ 
 #products {
-    background: url(https://capslockgames.com/img/productsbg.png);
+    background: url(/img/productsbg.png);
     background-size: cover;
 }
 
